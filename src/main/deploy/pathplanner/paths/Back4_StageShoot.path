@@ -1,0 +1,55 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 8.095303218342568,
+        "y": 2.5403568535772756
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 6.597070083195638,
+        "y": 3.4642103954372825
+      },
+      "isLocked": false,
+      "linkedName": "Back4"
+    },
+    {
+      "anchor": {
+        "x": 4.3832062251830655,
+        "y": 4.925424003771546
+      },
+      "prevControl": {
+        "x": 5.842544818522921,
+        "y": 4.027964903755894
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "StageShootPosition"
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.75,
+      "rotationDegrees": 169.47439652592504,
+      "rotateFast": false
+    }
+  ],
+  "constraintZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 5.0,
+    "maxAcceleration": 5.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 540.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 171.36,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "BackToShoot",
+  "previewStartingState": null,
+  "useDefaultConstraints": true
+}

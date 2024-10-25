@@ -1,0 +1,67 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 2.7468950627556423,
+        "y": 6.917747628598705
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 3.688989991923011,
+        "y": 7.036313531067841
+      },
+      "isLocked": false,
+      "linkedName": "Front1"
+    },
+    {
+      "anchor": {
+        "x": 8.04,
+        "y": 7.4
+      },
+      "prevControl": {
+        "x": 7.266532276153007,
+        "y": 7.308076187966469
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "Back1"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "eventMarkers": [
+    {
+      "name": "Start Intake",
+      "waypointRelativePos": 0.75,
+      "command": {
+        "type": "parallel",
+        "data": {
+          "commands": [
+            {
+              "type": "named",
+              "data": {
+                "name": "AutoIntake"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 5.0,
+    "maxAcceleration": 5.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 540.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": -172.66028780189933,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "FrontToBack",
+  "previewStartingState": null,
+  "useDefaultConstraints": true
+}

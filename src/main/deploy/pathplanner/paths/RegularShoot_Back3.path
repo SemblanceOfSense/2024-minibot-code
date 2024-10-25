@@ -1,0 +1,73 @@
+{
+  "version": 1.0,
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 4.842488744197878,
+        "y": 6.193270681144061
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 7.346103259013114,
+        "y": 6.58539062574377
+      },
+      "isLocked": false,
+      "linkedName": "RegularShootPosition"
+    },
+    {
+      "anchor": {
+        "x": 8.18,
+        "y": 4.24
+      },
+      "prevControl": {
+        "x": 8.062835601503286,
+        "y": 4.34490468507174
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "Back3"
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.5,
+      "rotationDegrees": 128.77279292849244,
+      "rotateFast": false
+    }
+  ],
+  "constraintZones": [],
+  "eventMarkers": [
+    {
+      "name": "Start Intake",
+      "waypointRelativePos": 0.55,
+      "command": {
+        "type": "parallel",
+        "data": {
+          "commands": [
+            {
+              "type": "named",
+              "data": {
+                "name": "AutoIntake"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "globalConstraints": {
+    "maxVelocity": 5.0,
+    "maxAcceleration": 5.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 540.0
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 121.3213932881081,
+    "rotateFast": false
+  },
+  "reversed": false,
+  "folder": "ShootToBack",
+  "previewStartingState": null,
+  "useDefaultConstraints": true
+}
